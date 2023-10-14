@@ -16,6 +16,7 @@ This repository contains the code for a simple Bookstore API implemented in Type
 - Description: This endpoint fetches all books from the database and returns a list of books.
 
 ## SQL script
+```sql
 CREATE DATABASE IF NOT EXISTS typescript_mysql_api;
 
 USE typescript_mysql_api;
@@ -26,7 +27,7 @@ CREATE TABLE IF NOT EXISTS your_table_name (
     title VARCHAR(255) NOT NULL,
     PRIMARY KEY (id)
 );
-
+```
 
 ## How to Use
 - Clone the repository to your local environment.
