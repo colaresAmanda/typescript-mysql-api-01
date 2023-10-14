@@ -21,7 +21,7 @@ CREATE DATABASE IF NOT EXISTS typescript_mysql_api;
 
 USE typescript_mysql_api;
 
-CREATE TABLE IF NOT EXISTS your_table_name (
+CREATE TABLE IF NOT EXISTS books (
     id INT AUTO_INCREMENT,
     author VARCHAR(255) NOT NULL,
     title VARCHAR(255) NOT NULL,
